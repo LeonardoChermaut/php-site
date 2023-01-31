@@ -12,7 +12,9 @@
 - AMPSS.
 - EasyPHP.
 
-<p>Used: WampServer and PhpMyAdmin<br>Url access example:</p>
+<p>Used: WampServer and PhpMyAdmin</p>
+
+##### URL Example Access
 ```bash
     http://localhost/php-site/src/php/views/home/home.php
  ```
