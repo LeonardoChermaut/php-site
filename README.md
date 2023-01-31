@@ -12,14 +12,17 @@
 - AMPSS.
 - EasyPHP.
 
-<p>Used: WampServer and PhpMyAdmin</p>
+<p>used: WampServer and PhpMyAdmin</p>
 
-##### URL Example Access
-```bash
-    http://localhost/php-site/src/php/views/home/home.php
- ```
-    
 <hr>
+
+#### Added this repository into folder wamp > www 
+
+##### Folder Example 
+
+```bash
+    C:\Program Files\wamp\www
+ ```
 
 #### Querys
 
@@ -42,6 +45,11 @@ CREATE DATABASE student-manager;
     situacao ENUM('Ativo', 'Inativo', 'Cancelada') CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL );
  ```
 
+##### URL Example Access
+```bash
+    http://localhost/php-site/src/php/views/home/home.php
+ ```
+ 
 ### Stacks Front-end 
 
 - [x] CSS3
