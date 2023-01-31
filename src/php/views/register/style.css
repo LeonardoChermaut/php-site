@@ -1,0 +1,86 @@
+input,
+select {
+  width: 100%;
+  margin: 0.5rem 0;
+  display: inline-block;
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #45a049;
+  color: white;
+  padding: 0.875rem 1.25rem;
+  margin: 0.5rem 0;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background: rgb(69, 160, 125);
+  background: linear-gradient(
+    90deg,
+    rgba(69, 160, 125, 1) 0%,
+    rgb(0, 255, 85) 100%
+  );
+  box-shadow: -1px 0px 15px 0px rgb(0, 255, 85);
+}
+
+#select-option-form {
+  height: 100%;
+}
+
+#status-student {
+  height: 100%;
+}
+
+#btn-password-input {
+  height: 50%;
+  width: 6%;
+}
+section .form-control {
+  width: 100%;
+  background-color: white;
+}
+.title {
+  color: #45a049;
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+.form-container {
+  width: 40rem;
+  padding: 1.25rem;
+  box-shadow: 0px 0px 48px 0px rgba(0, 0, 0, 0.24);
+  border-radius: 0.313rem;
+  margin-bottom: 5rem;
+}
+
+.container-fluid {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.input-group {
+  position: relative;
+}
+
+.input-group button {
+  position: absolute;
+  right: 0;
+  margin-right: 0.2rem;
+  margin-top: 1.3rem;
+  bottom: 0;
+  top: 0;
+}
+
+#show-password {
+  height: 50%;
+  width: 6%;
+}
